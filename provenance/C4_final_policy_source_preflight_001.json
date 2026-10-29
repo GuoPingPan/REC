@@ -1,0 +1,18 @@
+{
+  "scope": "Static provenance/protocol checks; actual data qualification and runtime negative tests recorded separately. No final model exists yet.",
+  "checks": {
+    "final_policy_worker_v2.py": "all runtime function bodies identical except versioned worker filename",
+    "final_policy_controller_v2.py": "all runtime function bodies identical except versioned worker filename",
+    "statistics": "route clustering, recipe matching, aggregation and bootstrap functions AST identical",
+    "official_protocol": "client command, port mapping and plan protocol constants unchanged"
+  },
+  "source_sha256": {
+    "final_policy_checkpoint_contract_v2.py": "2b36e991204161210364f22448b29d2d6faa792dee3a424b9bec33160083a4a2",
+    "final_policy_worker_v2.py": "4c8b6c4c923d5f9ad241808fbc7c00e5270b187a1772da11f10de7bc286abb22",
+    "final_policy_controller_v2.py": "1286d9bebca193066eb7b1b1f579abb53ddb154050bf455db6dd1433552ab8ce",
+    "prepare_final_policy_evaluation_v2.py": "bc0f70e1a8b4eb1f0bafdf8f3668e63a09573025f9b00962ea510f4c6e4a3d6a",
+    "analyze_final_paired_uncertainty_v3.py": "f77b9a3146e770113fe3fc146051ae40db54e4934d34f829902b655e9a56c788",
+    "qualify_final_training_completion_v1.py": "c7a89c8c755f67e6b47ea9de000de28c2de4aad3d167b6ddf302ca1a0b68a1d9"
+  },
+  "new_evaluation_or_training_launched": false
+}

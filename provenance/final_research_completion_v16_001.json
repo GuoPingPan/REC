@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-10-24T05:10:19.144483+00:00",
+  "verified": true,
+  "all_authorized_required_work_complete": true,
+  "goal_complete": true,
+  "training_models": 6,
+  "full_official_evaluation_models": 6,
+  "official_episodes_per_model": 864,
+  "paired_seeds": [
+    10,
+    11,
+    12
+  ],
+  "actual_bootstrap_repetitions": 10000,
+  "final_manuscript_pages": 27,
+  "all27pages_actual_full_and_native_pixel_visual_review_passed": true,
+  "all17tables_source_values_checked": true,
+  "final8figures_and9native_equations_verified": true,
+  "final_artifacts_synced_to_shared_remote_with_full_byte_SHA_check": true,
+  "automation_deletion_actual_tool_response": {
+    "automationId": "aerialvln-s",
+    "mode": "delete",
+    "deleteStatus": "deleted",
+    "snapshot": {
+      "kind": "heartbeat",
+      "name": "完成无人机配对研究与论文",
+      "rrule": "FREQ=MINUTELY;INTERVAL=15"
+    }
+  },
+  "scientific_conclusion": "Unseen REC−GT SR +1.32pp; joint95%CI−1.20 to+3.58pp. No superiority, noninferiority or equivalence established.",
+  "evidence_sha256": {
+    "final_delivery_manifest_v16.json": "84124d0b4a2239ba87ef5ba3106b201fb027e452952191d6bbac6fa4dc6e4981",
+    "final_qa_receipt_v16.json": "de4852fedeb6d5288726ecc4f5776bee4c896561fe151648b023049fc2040431",
+    "evidence/report/final_research_requirements_completion_audit_v16_001.json": "dd8309081dc1dee16dc678d2cf8126aca0f1290581eb38ea92b947cb099aa8bf",
+    "evidence/report/final_paper_source_number_claim_audit_v16_001.json": "ec2297060354237eea2ae9846946cbd45a2d499f856d18984194ce6b0079fd18"
+  }
+}

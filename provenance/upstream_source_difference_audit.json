@@ -1,0 +1,68 @@
+{
+  "scope": "Actual source-tree comparison; external wrappers and installed runtime are separately declared.",
+  "repository": "https://github.com/return-sleep/AeroAct",
+  "commit": "0417d39d4a739ed985ef33b9cb9be4327543640e",
+  "archive_sha256": "384eb54d467217bf8c52b81ed1e4b34eb2866a35301ec2cfac93ba33960eda0e",
+  "upstream_regular_files": 439,
+  "current_recorded_regular_files": 443,
+  "byte_identical_files": 435,
+  "changed_regular_files": [
+    {
+      "file": "AirVLN/src/common/param.py",
+      "upstream_sha256": "6afb3fc7f8725d037ada479f4c67fc27858299e01d1a70c94986f2468522a2ed",
+      "current_sha256": "379652ab6bc7bba42161d5d50e74d0517c1c0b0024f0d822c074ded97e9c6c4f",
+      "Python_AST_equal": false,
+      "reviewed_effect": "Add parser declarations already used by released eval.py; defaults fixed dataset aerialvln-s and sampling temperature0.2."
+    },
+    {
+      "file": "AirVLN/src/vlnce_src/env.py",
+      "upstream_sha256": "162ea19b88c95f48d6523b8ab3c57c7230cde4df435a7bfbb78d1a3be29427f4",
+      "current_sha256": "78be19230e6087a8a37aa7d9b56247c98245bdc94bb3b76c356ebb6396530bed",
+      "Python_AST_equal": false,
+      "reviewed_effect": "Accept existing dataset keyword; fix >=len(data)-1 to >=len(data) so final episode is not skipped. This changes coverage relative to the buggy loop, not success/collision scoring."
+    },
+    {
+      "file": "llava/data/dataset.py",
+      "upstream_sha256": "8c7eb3abe41ce03843622b7543a05d9974ca3c798821f198995c0ce831fbbb5d",
+      "current_sha256": "f9b611eb926ef29d9229b77b9a834450285779d8e0cb7f23a39589c803ac3ad0",
+      "Python_AST_equal": true,
+      "reviewed_effect": "Comment-only indentation change. AST exactly matches upstream; sample_weight remains absent from collated batch as in the pinned release."
+    },
+    {
+      "file": "llava/train/utils.py",
+      "upstream_sha256": "6f79a7a425cc819ecf690003e1e8388e32ad54c615ba0a5ad806c6700c94e39b",
+      "current_sha256": "927d840b32aecbb5c58d3b9674ede39fe68b53be04472cf1b116dc05e3eefaf9",
+      "Python_AST_equal": false,
+      "reviewed_effect": "Guard three optional absent ModelArguments fields with hasattr to avoid initialization AttributeError."
+    }
+  ],
+  "added_regular_files": [
+    {
+      "file": "dlc/bootstrap.py",
+      "sha256": "6534c15afb824cd5884b3a3587396a5b203b59df825a9dedacaa7a9845d2b988"
+    },
+    {
+      "file": "dlc/run_training.py",
+      "sha256": "4832ef9ffa8d7183b1097c2834e183776d4c8cd1cb84de1e5a2ff95ed4a31e63"
+    },
+    {
+      "file": "script/train_aerialvln_dlc.sh",
+      "sha256": "f5ef32c424971d6fe2c1e8d97e65bfa5d03e1615f4958d5c39c0387a32c7675f"
+    },
+    {
+      "file": "scripts/zero3.json",
+      "sha256": "97bb46f841ad91fd29f2b8b03fff2e48e6ee316de9ee769e265833b3dbecb651"
+    }
+  ],
+  "missing_regular_files": [],
+  "source_alias_symlinks": {
+    "AirVLN_utils": "AirVLN/utils",
+    "AirVLN_src": "AirVLN/src",
+    "airsim_plugin": "AirVLN/airsim_plugin"
+  },
+  "external_runtime_fix": "source/rotary_compat.py changes Qwen2 cache construction under pinned ZeRO BF16 initialization; verified in actual tiny training and ordinary public FP16 inference.",
+  "external_observation_wrapper": "source/formal_training_entry.py records actual batches/rank progress and asserts fixed protocol; no weighted loss override.",
+  "not_full_paper_reproduction": "Current navigation-only training omits auxiliary tasks; public globalbatch256 differs from paper batch128 and4A100. Filtered paired research cohort differs from full official train.",
+  "sampling_metrics_and_action_parser_unchanged": true,
+  "time": 1792606119.6287074
+}

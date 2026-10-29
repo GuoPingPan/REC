@@ -1,0 +1,32 @@
+{
+  "status": "target_valid_paired_dataset_verified",
+  "verification": {
+    "dataset": "complete-optical-target-valid-v4",
+    "routes": 2264,
+    "instructions": 5915,
+    "RGB_frames": 253714,
+    "samples": {
+      "gt-native-merge": 343227,
+      "rec-native-merge": 350851,
+      "gt-joint-boundary": 351983,
+      "rec-joint-boundary": 351983
+    },
+    "validation_report_sha256": "2eeb5f4dd150418bfc029ac13f41ac911aa150361a7c1ff72817085ecb7e8f41",
+    "route_inventory_sha256": "12ae5c56e8e8f0b1b21caf9ef251ed64d18d037368abc75c10fc0fa3815ada06",
+    "parent_validation_sha256": "2b71af639ef39151f2f5b5efc9d365e11e5732a5f41339b684430a1fe7d67076",
+    "loader_sha256": "725b2735fd3cce66a27415a59c79b30a9924fbe92a7bbcc611cf6d3290364221",
+    "all_STOP_text_audit_sha256": "e9279d075f6b5e04260b5ca6e8248f68a49c80e96fb5b2fd205a5af0c3ecb35e",
+    "GPU_embedding_audit_sha256": "d02b13805f16f9ad85301d4016200ce863ed44270688b70f8ba050f804cb2872",
+    "minimum_context_margin_tokens": 215,
+    "excluded_instructions": [
+      "3B1NLC6UG8UKXMYP8ZOQVLCA850PGU",
+      "3DY4FPOOAAMORW4ZAMR10HFZW3KRVN",
+      "3TPWUS5F8IZX0JFLIZ62XOZR3BLCWE",
+      "3X66WABAJ5GDQXT2A1RJII993AI3G8",
+      "3ZV9H2YQQM59NJJ2P6V14LVXXY93W8"
+    ],
+    "physical_collision_free_certified": false,
+    "known_primitive_clock_and_clip_endpoint_priors": true,
+    "contract_source_sha256": "509f539c996846a16e1abe9fcb5b889f3a069010e820263fbf379544872f10c5"
+  }
+}

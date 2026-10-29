@@ -1,0 +1,57 @@
+{
+  "release_date": "2026-10-29",
+  "verified_at_utc": "2026-10-29T07:25:32.812221+00:00",
+  "copied_source_and_config_files_verified": 637,
+  "actual_training_configurations_verified": 6,
+  "actual_evaluation_plans_verified": 6,
+  "python_files_syntax_compiled": 525,
+  "missing_local_imports": 0,
+  "cpu_tests_passed": 4,
+  "cpu_runtime": {
+    "platform": "Linux",
+    "python": "3.10",
+    "numpy": "1.26.0",
+    "scipy": "1.15.3"
+  },
+  "cpu_checks": [
+    "Independent body/camera geometry with all seven actions and random global gauge",
+    "Primitive-scale calibration at three synthetic scales",
+    "CLI defaults to raw scale; STOP requires explicit complete-demo prior",
+    "CLI rejects non-finite input and preserves existing output"
+  ],
+  "macOS_CPU_runtime_verified": false,
+  "macOS_limitation": "SciPy1.15.3 wheel dynamic library load error; unchanged tests passed in original Linux runtime.",
+  "new_GPU_inference_executed": false,
+  "new_training_executed": false,
+  "new_navigation_evaluation_executed": false,
+  "common_credential_pattern_findings": 0,
+  "dataset_weight_media_binary_files_staged": 0,
+  "new_packaging_file_whitespace_check": "passed",
+  "historical_source_whitespace": "Preserved byte-for-byte, including pre-existing whitespace warnings.",
+  "remote_validation": [
+    {
+      "command": [
+        "/tmp/aeroact_official_runtime_0417_py310_v1/bin/python",
+        "/tmp/rec-release-check-20261029-yzg3hewd/scripts/verify_release.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"copied_files_verified\": 637,\n  \"training_configs_verified\": 6,\n  \"evaluation_plans_verified\": 6,\n  \"cloud_jobs_launched\": 0\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/tmp/aeroact_official_runtime_0417_py310_v1/bin/python",
+        "-c",
+        "import numpy,scipy;print('RUNTIME',numpy.__version__,scipy.__version__);import runpy,tempfile;from pathlib import Path;d=runpy.run_path('tests/test_geometry.py');names=[n for n in d if n.startswith('test_')];[(d[n](Path(tempfile.mkdtemp(prefix='rec-cpu-test-'))) if 'tmp_path' in d[n].__code__.co_varnames else d[n]()) for n in names];print('CPU_TESTS_PASSED',len(names))"
+      ],
+      "returncode": 0,
+      "stdout": "RUNTIME 1.26.0 1.15.3\nCPU_TESTS_PASSED 4\n",
+      "stderr": ""
+    },
+    {
+      "root": "/tmp/rec-release-check-20261029-yzg3hewd",
+      "all_passed": true,
+      "GPU_inference_training_navigation_launched": false
+    }
+  ]
+}

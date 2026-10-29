@@ -1,0 +1,29 @@
+{
+  "dataset_identity": "native-GT-action-RGB-new-ViPE-Sim3-recovered-actions-v1",
+  "input_scope": "Existing full executed prefixes of all 3834 GT-action replay routes, 10097 instructions; no selection by SR.",
+  "source_sha256": {
+    "common.py": "aa927b2cd8af96b61b072225ae425114544330d588da0cc947a161fdd361ff1e",
+    "worker.py": "ee863f5abb30673dd54835cba07cf206210c9696fab48b78bb6f6e2481a4ad1b",
+    "package.py": "8eeac2c11c0f5bfc13c6c72c200175db727b1916e2542e7afd4cd05d801742b7",
+    "controller.py": "d8658f87635cee4f3fc6117648cad993abbb364f0822be8ab924fb574679d328",
+    "infer_v1.py": "eb9c224354c84c0a063156360b3ad7e32d5490be6bc77e57a1261d7ec7ad0e2e",
+    "run-python": "d7834e03cee5f319d47444a5b8e150ed8a8a49deef94095c0f4fba324988e30e"
+  },
+  "frozen_vipe_source": "/mnt/data_20t/users/kindel/uav/experiments/aerialvln-s/20261017-220532-vipe-full-s-route-recovery/source/baseline-42e278c513a8d058/vipe",
+  "baseline_dataset": "/mnt/data_20t/users/kindel/uav/experiments/aeroact/20261018-012530-nvila8b-aerialvln-s-official/dataset/official-s-full-64a06ef2-aeroact0417-exclude6-v1",
+  "ViPE": "Identical infer_v1.py; MoGe2-L, fixed K, seed0; new inference for every native GT video",
+  "alignment": "Separate post-inference GT prefix camera SE3/Sim3 fitting. Convert optical to body, calibrated 0.5m front offset.",
+  "discretization": "Unchanged nearest official body SE3 primitive with 5m/5m/2m and 15deg normalization; full recovered roll/pitch retained.",
+  "STOP": "Only known official terminal_STOP. Early-cut final observation has no outgoing label; all earlier valid observed transitions retained.",
+  "merging": "Identical adjacent primitive, maximum 3; 22 official text action classes",
+  "RGB": "Read-only native lossless video, all decoded frame hashes checked. New JPEG95 RGB directory, 224x224; do not reference old reference-RGB directories.",
+  "source_video_reuse": "Videos linked by path, never duplicated or overwritten",
+  "workers": 5,
+  "resources": "Existing ali-dojo-eval GPUs 0..4, no DLC nodes",
+  "minimum_free_disk_bytes": 107374182400,
+  "pilot_route": "scene_08_2550990115b2d7dd",
+  "pilot_selection": "Fixed 59-frame complete route before inspecting its new ViPE result",
+  "formal_training_requested_this_round": false,
+  "prediction_retry": "No convergence reruns; preserve every algorithm failure. Technical execution recovery requires review and a new attempt.",
+  "active_attempt": "attempts/attempt-002"
+}

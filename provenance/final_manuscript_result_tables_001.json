@@ -1,0 +1,1078 @@
+{
+  "verified": true,
+  "created_at": "2026-10-24T04:54:21.298282+00:00",
+  "scope": "All six completed final-model evaluations and actual three-seed statistics cross-checked against source-bound original reports; report assembly only, no policy evaluation or resampling rerun",
+  "navigation_per_seed": [
+    {
+      "supervision": "GT",
+      "group": "gt-joint-boundary",
+      "training_seed": 10,
+      "split": "val_seen",
+      "instructions": 333,
+      "successes": 22.0,
+      "oracle_successes": 106.0,
+      "metrics": {
+        "success": 0.06606606606606606,
+        "oracle_success": 0.3183183183183183,
+        "distance_to_goal": 93.81320645543107,
+        "ndtw": 0.1950489459113369,
+        "sdtw": 0.03390904090642618,
+        "path_length": 317.987987987988,
+        "steps_taken": 113.87987987987988
+      },
+      "whole_evaluation_audit": "report/final_GT_seed10_complete_evaluation_verified_002.json",
+      "split_audit": "report/final_GT_seed10_Seen_verified_001.json"
+    },
+    {
+      "supervision": "GT",
+      "group": "gt-joint-boundary",
+      "training_seed": 10,
+      "split": "val_unseen",
+      "instructions": 531,
+      "successes": 29.0,
+      "oracle_successes": 191.0,
+      "metrics": {
+        "success": 0.054613935969868174,
+        "oracle_success": 0.35969868173258,
+        "distance_to_goal": 109.77622662193187,
+        "ndtw": 0.13145488699597005,
+        "sdtw": 0.01235890228447779,
+        "path_length": 410.74952919020717,
+        "steps_taken": 133.7909604519774
+      },
+      "whole_evaluation_audit": "report/final_GT_seed10_complete_evaluation_verified_002.json",
+      "split_audit": "report/final_GT_seed10_Unseen_verified_001.json"
+    },
+    {
+      "supervision": "REC",
+      "group": "rec-joint-boundary",
+      "training_seed": 10,
+      "split": "val_seen",
+      "instructions": 333,
+      "successes": 28.0,
+      "oracle_successes": 109.0,
+      "metrics": {
+        "success": 0.08408408408408409,
+        "oracle_success": 0.32732732732732733,
+        "distance_to_goal": 93.1265440891955,
+        "ndtw": 0.19176025646705636,
+        "sdtw": 0.03245813795291218,
+        "path_length": 259.24924924924926,
+        "steps_taken": 97.36636636636636
+      },
+      "whole_evaluation_audit": "report/final_REC_seed10_complete_evaluation_verified_001.json",
+      "split_audit": "report/final_REC_seed10_Seen_verified_001.json"
+    },
+    {
+      "supervision": "REC",
+      "group": "rec-joint-boundary",
+      "training_seed": 10,
+      "split": "val_unseen",
+      "instructions": 531,
+      "successes": 25.0,
+      "oracle_successes": 175.0,
+      "metrics": {
+        "success": 0.047080979284369114,
+        "oracle_success": 0.3295668549905838,
+        "distance_to_goal": 108.13591410522315,
+        "ndtw": 0.14220037041050632,
+        "sdtw": 0.01490939372444741,
+        "path_length": 381.8210922787194,
+        "steps_taken": 123.90207156308851
+      },
+      "whole_evaluation_audit": "report/final_REC_seed10_complete_evaluation_verified_001.json",
+      "split_audit": "report/final_REC_seed10_Unseen_verified_001.json"
+    },
+    {
+      "supervision": "GT",
+      "group": "gt-joint-boundary",
+      "training_seed": 11,
+      "split": "val_seen",
+      "instructions": 333,
+      "successes": 11.0,
+      "oracle_successes": 122.0,
+      "metrics": {
+        "success": 0.03303303303303303,
+        "oracle_success": 0.3663663663663664,
+        "distance_to_goal": 100.69430888153805,
+        "ndtw": 0.17258826668342722,
+        "sdtw": 0.013487848726889814,
+        "path_length": 363.43243243243245,
+        "steps_taken": 125.92492492492492
+      },
+      "whole_evaluation_audit": "report/final_GT_seed11_complete_evaluation_verified_002.json",
+      "split_audit": "report/final_GT_seed11_Seen_verified_002.json"
+    },
+    {
+      "supervision": "GT",
+      "group": "gt-joint-boundary",
+      "training_seed": 11,
+      "split": "val_unseen",
+      "instructions": 531,
+      "successes": 19.0,
+      "oracle_successes": 198.0,
+      "metrics": {
+        "success": 0.035781544256120526,
+        "oracle_success": 0.3728813559322034,
+        "distance_to_goal": 110.64900114807804,
+        "ndtw": 0.13326927109480163,
+        "sdtw": 0.012048169353737134,
+        "path_length": 429.7306967984934,
+        "steps_taken": 138.98116760828626
+      },
+      "whole_evaluation_audit": "report/final_GT_seed11_complete_evaluation_verified_002.json",
+      "split_audit": "report/final_GT_seed11_Unseen_verified_002.json"
+    },
+    {
+      "supervision": "REC",
+      "group": "rec-joint-boundary",
+      "training_seed": 11,
+      "split": "val_seen",
+      "instructions": 333,
+      "successes": 23.0,
+      "oracle_successes": 108.0,
+      "metrics": {
+        "success": 0.06906906906906907,
+        "oracle_success": 0.32432432432432434,
+        "distance_to_goal": 96.87229314930465,
+        "ndtw": 0.17709794056053554,
+        "sdtw": 0.025627126439609973,
+        "path_length": 287.73273273273276,
+        "steps_taken": 110.88288288288288
+      },
+      "whole_evaluation_audit": "report/final_REC_seed11_complete_evaluation_verified_001.json",
+      "split_audit": "report/final_REC_seed11_Seen_verified_001.json"
+    },
+    {
+      "supervision": "REC",
+      "group": "rec-joint-boundary",
+      "training_seed": 11,
+      "split": "val_unseen",
+      "instructions": 531,
+      "successes": 32.0,
+      "oracle_successes": 205.0,
+      "metrics": {
+        "success": 0.060263653483992465,
+        "oracle_success": 0.3860640301318267,
+        "distance_to_goal": 115.06582352452563,
+        "ndtw": 0.12616342028198593,
+        "sdtw": 0.014753877724238413,
+        "path_length": 464.6045197740113,
+        "steps_taken": 152.80979284369116
+      },
+      "whole_evaluation_audit": "report/final_REC_seed11_complete_evaluation_verified_001.json",
+      "split_audit": "report/final_REC_seed11_Unseen_verified_001.json"
+    },
+    {
+      "supervision": "GT",
+      "group": "gt-joint-boundary",
+      "training_seed": 12,
+      "split": "val_seen",
+      "instructions": 333,
+      "successes": 21.0,
+      "oracle_successes": 126.0,
+      "metrics": {
+        "success": 0.06306306306306306,
+        "oracle_success": 0.3783783783783784,
+        "distance_to_goal": 101.95648305825812,
+        "ndtw": 0.17680025998447874,
+        "sdtw": 0.021495751210798743,
+        "path_length": 345.7957957957958,
+        "steps_taken": 117.43843843843844
+      },
+      "whole_evaluation_audit": "report/final_GT_seed12_complete_evaluation_verified_001.json",
+      "split_audit": "report/final_GT_seed12_Seen_verified_001.json"
+    },
+    {
+      "supervision": "GT",
+      "group": "gt-joint-boundary",
+      "training_seed": 12,
+      "split": "val_unseen",
+      "instructions": 531,
+      "successes": 20.0,
+      "oracle_successes": 178.0,
+      "metrics": {
+        "success": 0.03766478342749529,
+        "oracle_success": 0.3352165725047081,
+        "distance_to_goal": 119.41661870883834,
+        "ndtw": 0.13148962283731364,
+        "sdtw": 0.012233798987902176,
+        "path_length": 396.60640301318267,
+        "steps_taken": 125.62146892655367
+      },
+      "whole_evaluation_audit": "report/final_GT_seed12_complete_evaluation_verified_001.json",
+      "split_audit": "report/final_GT_seed12_Unseen_verified_001.json"
+    },
+    {
+      "supervision": "REC",
+      "group": "rec-joint-boundary",
+      "training_seed": 12,
+      "split": "val_seen",
+      "instructions": 333,
+      "successes": 31.0,
+      "oracle_successes": 107.0,
+      "metrics": {
+        "success": 0.09309309309309309,
+        "oracle_success": 0.3213213213213213,
+        "distance_to_goal": 98.45798504636392,
+        "ndtw": 0.17002476868351063,
+        "sdtw": 0.036577200273174,
+        "path_length": 316.5405405405405,
+        "steps_taken": 115.12312312312312
+      },
+      "whole_evaluation_audit": "report/final_REC_seed12_complete_evaluation_verified_002.json",
+      "split_audit": "report/final_REC_seed12_Seen_verified_002.json"
+    },
+    {
+      "supervision": "REC",
+      "group": "rec-joint-boundary",
+      "training_seed": 12,
+      "split": "val_unseen",
+      "instructions": 531,
+      "successes": 32.0,
+      "oracle_successes": 188.0,
+      "metrics": {
+        "success": 0.060263653483992465,
+        "oracle_success": 0.3540489642184557,
+        "distance_to_goal": 115.01572499406713,
+        "ndtw": 0.13163367864917933,
+        "sdtw": 0.019993838613333325,
+        "path_length": 460.2994350282486,
+        "steps_taken": 144.99623352165725
+      },
+      "whole_evaluation_audit": "report/final_REC_seed12_complete_evaluation_verified_002.json",
+      "split_audit": "report/final_REC_seed12_Unseen_verified_002.json"
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "split": "val_seen",
+      "metric": "success",
+      "original_metric_units": "fraction",
+      "favourable_direction": "higher",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        0.06606606606606606,
+        0.03303303303303303,
+        0.06306306306306306
+      ],
+      "REC_per_training_seed": [
+        0.08408408408408409,
+        0.06906906906906907,
+        0.09309309309309309
+      ],
+      "REC_minus_GT_per_training_seed": [
+        0.01801801801801803,
+        0.036036036036036036,
+        0.030030030030030033
+      ],
+      "GT_mean": 0.05405405405405405,
+      "REC_mean": 0.08208208208208208,
+      "REC_minus_GT_mean": 0.028028028028028035,
+      "paired_training_seed_delta_sample_SD": 0.009174325715627303,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        0.006152439024390244,
+        0.04945598417408506
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -0.002026342451874367,
+        0.056213314797652146
+      ],
+      "mean_delta_percentage_points": 2.8028028028028036,
+      "joint_95_CI_percentage_points": [
+        -0.2026342451874367,
+        5.621331479765215
+      ]
+    },
+    {
+      "split": "val_seen",
+      "metric": "oracle_success",
+      "original_metric_units": "fraction",
+      "favourable_direction": "higher",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        0.3183183183183183,
+        0.3663663663663664,
+        0.3783783783783784
+      ],
+      "REC_per_training_seed": [
+        0.32732732732732733,
+        0.32432432432432434,
+        0.3213213213213213
+      ],
+      "REC_minus_GT_per_training_seed": [
+        0.009009009009009028,
+        -0.04204204204204204,
+        -0.0570570570570571
+      ],
+      "GT_mean": 0.35435435435435436,
+      "REC_mean": 0.32432432432432434,
+      "REC_minus_GT_mean": -0.030030030030030037,
+      "paired_training_seed_delta_sample_SD": 0.03463232010411653,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        -0.07049345417925473,
+        0.010945273631840793
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -0.09144587740125189,
+        0.03003003003003003
+      ],
+      "mean_delta_percentage_points": -3.0030030030030037,
+      "joint_95_CI_percentage_points": [
+        -9.14458774012519,
+        3.003003003003003
+      ]
+    },
+    {
+      "split": "val_seen",
+      "metric": "distance_to_goal",
+      "original_metric_units": "metres XY",
+      "favourable_direction": "lower",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        93.81320645543106,
+        100.69430888153794,
+        101.9564830582581
+      ],
+      "REC_per_training_seed": [
+        93.12654408919549,
+        96.87229314930468,
+        98.45798504636392
+      ],
+      "REC_minus_GT_per_training_seed": [
+        -0.6866623662355664,
+        -3.822015732233254,
+        -3.498498011894185
+      ],
+      "GT_mean": 98.82133279840905,
+      "REC_mean": 96.15227409495469,
+      "REC_minus_GT_mean": -2.669058703454335,
+      "paired_training_seed_delta_sample_SD": 1.7244092777548894,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        -8.071173305461812,
+        2.782872028924587
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -9.745371988611172,
+        4.387170731216992
+      ]
+    },
+    {
+      "split": "val_seen",
+      "metric": "ndtw",
+      "original_metric_units": "fraction",
+      "favourable_direction": "higher",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        0.19504894591133687,
+        0.17258826668342733,
+        0.17680025998447865
+      ],
+      "REC_per_training_seed": [
+        0.1917602564670564,
+        0.17709794056053557,
+        0.17002476868351063
+      ],
+      "REC_minus_GT_per_training_seed": [
+        -0.003288689444280457,
+        0.004509673877108239,
+        -0.006775491300968023
+      ],
+      "GT_mean": 0.1814791575264143,
+      "REC_mean": 0.1796276552370342,
+      "REC_minus_GT_mean": -0.0018515022893800803,
+      "paired_training_seed_delta_sample_SD": 0.005778223642502446,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        -0.014812212775092468,
+        0.010834459995899505
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -0.019440983420918493,
+        0.015558335633367315
+      ]
+    },
+    {
+      "split": "val_seen",
+      "metric": "sdtw",
+      "original_metric_units": "fraction",
+      "favourable_direction": "higher",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        0.033909040906426186,
+        0.013487848726889814,
+        0.02149575121079874
+      ],
+      "REC_per_training_seed": [
+        0.03245813795291217,
+        0.025627126439609973,
+        0.036577200273174
+      ],
+      "REC_minus_GT_per_training_seed": [
+        -0.0014509029535140147,
+        0.01213927771272016,
+        0.015081449062375261
+      ],
+      "GT_mean": 0.022964213614704913,
+      "REC_mean": 0.03155415488856538,
+      "REC_minus_GT_mean": 0.008589941273860468,
+      "paired_training_seed_delta_sample_SD": 0.008819184070053332,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        -0.001054453243292409,
+        0.01864889691195289
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -0.00708196706341888,
+        0.023625442787867896
+      ]
+    },
+    {
+      "split": "val_unseen",
+      "metric": "success",
+      "original_metric_units": "fraction",
+      "favourable_direction": "higher",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        0.054613935969868174,
+        0.035781544256120526,
+        0.03766478342749529
+      ],
+      "REC_per_training_seed": [
+        0.047080979284369114,
+        0.060263653483992465,
+        0.060263653483992465
+      ],
+      "REC_minus_GT_per_training_seed": [
+        -0.007532956685499061,
+        0.02448210922787194,
+        0.022598870056497175
+      ],
+      "GT_mean": 0.04268675455116133,
+      "REC_mean": 0.05586942875078468,
+      "REC_minus_GT_mean": 0.013182674199623351,
+      "paired_training_seed_delta_sample_SD": 0.017964956712183535,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        0.0006218905472636814,
+        0.02583503074886555
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -0.011972841601267879,
+        0.03578271902143854
+      ],
+      "mean_delta_percentage_points": 1.3182674199623352,
+      "joint_95_CI_percentage_points": [
+        -1.1972841601267878,
+        3.5782719021438543
+      ]
+    },
+    {
+      "split": "val_unseen",
+      "metric": "oracle_success",
+      "original_metric_units": "fraction",
+      "favourable_direction": "higher",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        0.35969868173258,
+        0.3728813559322034,
+        0.3352165725047081
+      ],
+      "REC_per_training_seed": [
+        0.3295668549905838,
+        0.3860640301318267,
+        0.3540489642184557
+      ],
+      "REC_minus_GT_per_training_seed": [
+        -0.030131826741996215,
+        0.013182674199623323,
+        0.01883239171374762
+      ],
+      "GT_mean": 0.3559322033898305,
+      "REC_mean": 0.3565599497802887,
+      "REC_minus_GT_mean": 0.0006277463904582429,
+      "paired_training_seed_delta_sample_SD": 0.026787932571690955,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        -0.028143681252988988,
+        0.029906741752536135
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -0.045079365079365094,
+        0.04521963824289404
+      ],
+      "mean_delta_percentage_points": 0.06277463904582428,
+      "joint_95_CI_percentage_points": [
+        -4.50793650793651,
+        4.521963824289403
+      ]
+    },
+    {
+      "split": "val_unseen",
+      "metric": "distance_to_goal",
+      "original_metric_units": "metres XY",
+      "favourable_direction": "lower",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        109.7762266219319,
+        110.64900114807803,
+        119.41661870883831
+      ],
+      "REC_per_training_seed": [
+        108.1359141052232,
+        115.06582352452558,
+        115.0157249940672
+      ],
+      "REC_minus_GT_per_training_seed": [
+        -1.640312516708704,
+        4.416822376447556,
+        -4.400893714771115
+      ],
+      "GT_mean": 113.28061549294942,
+      "REC_mean": 112.73915420793867,
+      "REC_minus_GT_mean": -0.5414612850107545,
+      "paired_training_seed_delta_sample_SD": 4.510391866388911,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        -5.000302169600948,
+        3.9373398803442194
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -7.420000287660656,
+        6.7918906070825065
+      ]
+    },
+    {
+      "split": "val_unseen",
+      "metric": "ndtw",
+      "original_metric_units": "fraction",
+      "favourable_direction": "higher",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        0.13145488699597,
+        0.13326927109480163,
+        0.1314896228373137
+      ],
+      "REC_per_training_seed": [
+        0.14220037041050626,
+        0.12616342028198588,
+        0.1316336786491794
+      ],
+      "REC_minus_GT_per_training_seed": [
+        0.010745483414536267,
+        -0.007105850812815756,
+        0.0001440558118657176
+      ],
+      "GT_mean": 0.13207126030936178,
+      "REC_mean": 0.1333324897805572,
+      "REC_minus_GT_mean": 0.0012612294711954093,
+      "paired_training_seed_delta_sample_SD": 0.008977950276259193,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        -0.0065844767720058435,
+        0.009041955275049455
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -0.012154720177439814,
+        0.01452357556556309
+      ]
+    },
+    {
+      "split": "val_unseen",
+      "metric": "sdtw",
+      "original_metric_units": "fraction",
+      "favourable_direction": "higher",
+      "difference_definition": "REC minus GT",
+      "GT_per_training_seed": [
+        0.01235890228447779,
+        0.012048169353737134,
+        0.012233798987902176
+      ],
+      "REC_per_training_seed": [
+        0.01490939372444741,
+        0.014753877724238411,
+        0.019993838613333325
+      ],
+      "REC_minus_GT_per_training_seed": [
+        0.00255049143996962,
+        0.0027057083705012766,
+        0.007760039625431149
+      ],
+      "GT_mean": 0.012213623542039033,
+      "REC_mean": 0.016552370020673047,
+      "REC_minus_GT_mean": 0.004338746478634015,
+      "paired_training_seed_delta_sample_SD": 0.002963943010774953,
+      "fixed_three_seeds_route_cluster_bootstrap_95_CI": [
+        0.00014972631353497035,
+        0.00887406472522757
+      ],
+      "paired_seed_and_route_cluster_bootstrap_95_CI": [
+        -0.0024928403651630353,
+        0.011100466587824721
+      ]
+    }
+  ],
+  "format_diagnostics": [
+    {
+      "supervision": "GT",
+      "training_seed": 10,
+      "generation_calls": 52814,
+      "recognized_calls": 52814,
+      "unrecognized_calls": 0,
+      "unrecognized_fraction": 0.0,
+      "parser_replay_mismatches": 0
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 10,
+      "generation_calls": 46514,
+      "recognized_calls": 46514,
+      "unrecognized_calls": 0,
+      "unrecognized_fraction": 0.0,
+      "parser_replay_mismatches": 0
+    },
+    {
+      "supervision": "GT",
+      "training_seed": 11,
+      "generation_calls": 55923,
+      "recognized_calls": 55923,
+      "unrecognized_calls": 0,
+      "unrecognized_fraction": 0.0,
+      "parser_replay_mismatches": 0
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 11,
+      "generation_calls": 55762,
+      "recognized_calls": 55762,
+      "unrecognized_calls": 0,
+      "unrecognized_fraction": 0.0,
+      "parser_replay_mismatches": 0
+    },
+    {
+      "supervision": "GT",
+      "training_seed": 12,
+      "generation_calls": 51399,
+      "recognized_calls": 51399,
+      "unrecognized_calls": 0,
+      "unrecognized_fraction": 0.0,
+      "parser_replay_mismatches": 0
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 12,
+      "generation_calls": 55826,
+      "recognized_calls": 55826,
+      "unrecognized_calls": 0,
+      "unrecognized_fraction": 0.0,
+      "parser_replay_mismatches": 0
+    }
+  ],
+  "recorded_policy_outcomes": [
+    {
+      "supervision": "GT",
+      "training_seed": 10,
+      "split": "val_seen",
+      "recorded_counts": {
+        "episodes": 333,
+        "success": 22,
+        "oracle_success": 106,
+        "failure": 311,
+        "reported_collision": 82,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 84,
+        "failure_with_reported_collision": 82,
+        "failure_without_reported_collision_with_oracle_success": 72,
+        "failure_without_reported_collision_without_oracle_success": 157,
+        "zero_translation_path": 6,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 1,
+        "failure_final_planar_distance_above_success_radius": 309,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 2,
+        "naive_formula_mismatch_with_reported_collision": 2,
+        "failure_with_final_distance_within_success_radius": 2
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "GT",
+      "training_seed": 10,
+      "split": "val_unseen",
+      "recorded_counts": {
+        "episodes": 531,
+        "success": 29,
+        "oracle_success": 191,
+        "failure": 502,
+        "reported_collision": 131,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 162,
+        "failure_with_reported_collision": 131,
+        "failure_without_reported_collision_with_oracle_success": 112,
+        "failure_without_reported_collision_without_oracle_success": 259,
+        "zero_translation_path": 8,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 3,
+        "failure_final_planar_distance_above_success_radius": 490,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 12,
+        "naive_formula_mismatch_with_reported_collision": 12,
+        "failure_with_final_distance_within_success_radius": 12
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 10,
+      "split": "val_seen",
+      "recorded_counts": {
+        "episodes": 333,
+        "success": 28,
+        "oracle_success": 109,
+        "failure": 305,
+        "reported_collision": 91,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 81,
+        "failure_with_reported_collision": 91,
+        "failure_without_reported_collision_with_oracle_success": 63,
+        "failure_without_reported_collision_without_oracle_success": 151,
+        "zero_translation_path": 6,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 2,
+        "failure_final_planar_distance_above_success_radius": 298,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 7,
+        "naive_formula_mismatch_with_reported_collision": 7,
+        "failure_with_final_distance_within_success_radius": 7
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 10,
+      "split": "val_unseen",
+      "recorded_counts": {
+        "episodes": 531,
+        "success": 25,
+        "oracle_success": 175,
+        "failure": 506,
+        "reported_collision": 160,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 150,
+        "failure_with_reported_collision": 160,
+        "failure_without_reported_collision_with_oracle_success": 98,
+        "failure_without_reported_collision_without_oracle_success": 248,
+        "zero_translation_path": 8,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 4,
+        "failure_final_planar_distance_above_success_radius": 496,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 10,
+        "naive_formula_mismatch_with_reported_collision": 10,
+        "failure_with_final_distance_within_success_radius": 10
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "GT",
+      "training_seed": 11,
+      "split": "val_seen",
+      "recorded_counts": {
+        "episodes": 333,
+        "success": 11,
+        "oracle_success": 122,
+        "failure": 322,
+        "reported_collision": 85,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 111,
+        "failure_with_reported_collision": 85,
+        "failure_without_reported_collision_with_oracle_success": 87,
+        "failure_without_reported_collision_without_oracle_success": 150,
+        "zero_translation_path": 6,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 3,
+        "failure_final_planar_distance_above_success_radius": 312,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 10,
+        "naive_formula_mismatch_with_reported_collision": 10,
+        "failure_with_final_distance_within_success_radius": 10
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "GT",
+      "training_seed": 11,
+      "split": "val_unseen",
+      "recorded_counts": {
+        "episodes": 531,
+        "success": 19,
+        "oracle_success": 198,
+        "failure": 512,
+        "reported_collision": 134,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 179,
+        "failure_with_reported_collision": 134,
+        "failure_without_reported_collision_with_oracle_success": 132,
+        "failure_without_reported_collision_without_oracle_success": 246,
+        "zero_translation_path": 8,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 6,
+        "failure_final_planar_distance_above_success_radius": 500,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 12,
+        "naive_formula_mismatch_with_reported_collision": 12,
+        "failure_with_final_distance_within_success_radius": 12
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 11,
+      "split": "val_seen",
+      "recorded_counts": {
+        "episodes": 333,
+        "success": 23,
+        "oracle_success": 108,
+        "failure": 310,
+        "reported_collision": 112,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 85,
+        "failure_with_reported_collision": 112,
+        "failure_without_reported_collision_with_oracle_success": 63,
+        "failure_without_reported_collision_without_oracle_success": 135,
+        "zero_translation_path": 6,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 0,
+        "failure_final_planar_distance_above_success_radius": 307,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 3,
+        "naive_formula_mismatch_with_reported_collision": 3,
+        "failure_with_final_distance_within_success_radius": 3
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 11,
+      "split": "val_unseen",
+      "recorded_counts": {
+        "episodes": 531,
+        "success": 32,
+        "oracle_success": 205,
+        "failure": 499,
+        "reported_collision": 124,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 173,
+        "failure_with_reported_collision": 124,
+        "failure_without_reported_collision_with_oracle_success": 141,
+        "failure_without_reported_collision_without_oracle_success": 234,
+        "zero_translation_path": 9,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 11,
+        "failure_final_planar_distance_above_success_radius": 491,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 8,
+        "naive_formula_mismatch_with_reported_collision": 8,
+        "failure_with_final_distance_within_success_radius": 8
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "GT",
+      "training_seed": 12,
+      "split": "val_seen",
+      "recorded_counts": {
+        "episodes": 333,
+        "success": 21,
+        "oracle_success": 126,
+        "failure": 312,
+        "reported_collision": 69,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 105,
+        "failure_with_reported_collision": 69,
+        "failure_without_reported_collision_with_oracle_success": 87,
+        "failure_without_reported_collision_without_oracle_success": 156,
+        "zero_translation_path": 6,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 2,
+        "failure_final_planar_distance_above_success_radius": 304,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 8,
+        "naive_formula_mismatch_with_reported_collision": 8,
+        "failure_with_final_distance_within_success_radius": 8
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "GT",
+      "training_seed": 12,
+      "split": "val_unseen",
+      "recorded_counts": {
+        "episodes": 531,
+        "success": 20,
+        "oracle_success": 178,
+        "failure": 511,
+        "reported_collision": 147,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 158,
+        "failure_with_reported_collision": 147,
+        "failure_without_reported_collision_with_oracle_success": 105,
+        "failure_without_reported_collision_without_oracle_success": 259,
+        "zero_translation_path": 8,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 2,
+        "failure_final_planar_distance_above_success_radius": 501,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 10,
+        "naive_formula_mismatch_with_reported_collision": 10,
+        "failure_with_final_distance_within_success_radius": 10
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 12,
+      "split": "val_seen",
+      "recorded_counts": {
+        "episodes": 333,
+        "success": 31,
+        "oracle_success": 107,
+        "failure": 302,
+        "reported_collision": 101,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 76,
+        "failure_with_reported_collision": 101,
+        "failure_without_reported_collision_with_oracle_success": 55,
+        "failure_without_reported_collision_without_oracle_success": 146,
+        "zero_translation_path": 6,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 4,
+        "failure_final_planar_distance_above_success_radius": 297,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 5,
+        "naive_formula_mismatch_with_reported_collision": 5,
+        "failure_with_final_distance_within_success_radius": 5
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    },
+    {
+      "supervision": "REC",
+      "training_seed": 12,
+      "split": "val_unseen",
+      "recorded_counts": {
+        "episodes": 531,
+        "success": 32,
+        "oracle_success": 188,
+        "failure": 499,
+        "reported_collision": 123,
+        "success_and_reported_collision": 0,
+        "oracle_success_without_final_success": 156,
+        "failure_with_reported_collision": 123,
+        "failure_without_reported_collision_with_oracle_success": 119,
+        "failure_without_reported_collision_without_oracle_success": 257,
+        "zero_translation_path": 8,
+        "success_with_zero_translation_path": 0,
+        "steps_at_least500": 6,
+        "failure_final_planar_distance_above_success_radius": 494,
+        "record_done_false": 0,
+        "naive_done_distance_formula_mismatch": 5,
+        "naive_formula_mismatch_with_reported_collision": 5,
+        "failure_with_final_distance_within_success_radius": 5
+      },
+      "interpretation": "Descriptive fields; depth proxy is not physical collision certification; last proposed action is not an executed-action or termination-cause proof"
+    }
+  ],
+  "training_summary": "evidence/report/completed_six_primary_training_summary_001.json",
+  "primary_outcome": {
+    "split": "val_unseen",
+    "metric": "success"
+  },
+  "uncertainty_limits": [
+    "Three seeds give limited precision for seed variation.",
+    "Only one navigation sampling seed is evaluated; sampling variability is not separately estimated.",
+    "Intervals are descriptive, pointwise and not adjusted for multiple metrics.",
+    "No noninferiority margin or superiority claim is automatically inferred.",
+    "Official scenes remain fixed; route resampling does not estimate variation across arbitrary new cities."
+  ],
+  "recorded_success_recomputed_from_done": false,
+  "losses_are_own_target_training_diagnostics": true,
+  "source_sha256": "c02f376a120ffcb8f52dad6893cfc2dc6c1a1ef453aec2a9bc1fbbd3dbc592e1",
+  "evidence_sha256": {
+    "evidence/pipeline/final_navigation_sequence_002/plan.json": "a5558441800d8413e93d0896d83e36e32871eefcbbba59d98429466d76df42b5",
+    "evidence/report/final_GT_seed10_Seen_verified_001.json": "02532fa0c6d75d6a58334c90ab614352af1de4ef49f3e830359b6ed381e8e90c",
+    "evidence/report/final_GT_seed10_Unseen_verified_001.json": "fae35d57d20450b5cdf2d7f8a65e5732dcb48d56b2b0dd5ddc81f83fcf1dcf27",
+    "evidence/report/GT_seed10_final_output_format_001.json": "54055ccb81580c70218c7c215bf0b60671b3989ac8a0bff262254e411ac57c04",
+    "evidence/report/final_GT_seed10_complete_evaluation_verified_002.json": "327bb31d7e25cab5dc7def16b2ad0e70911d2017874f3ad64e4328de6e05dea6",
+    "evidence/report/GT_seed10_recorded_policy_outcomes_001.json": "507473d75fed3ea693825af9a5e6387961eae92eb17f4e9ef10e345706f118be",
+    "evidence/eval/final_C4_gt_seed10_001/plan.json": "f88014143c54d19fc175a1a40192256a536961133cefbe11b20e27b5f7355de7",
+    "evidence/eval/final_C4_gt_seed10_001/controller_exit.json": "b7179fb03bcbc34359a4c289f2cd3f353fb56f34c15d21f2f6132d50d73afbc5",
+    "evidence/eval/final_C4_gt_seed10_001/all_worker_results.json": "42fadd7b3cc302ef4f0271fbe49ca13eda7b49fc33bdda6cc065f6a05f6291e5",
+    "evidence/eval/final_C4_gt_seed10_001/final_metrics.json": "7e0078cfd72272aafd2768d055b3114b2c1ddb10209cbe60924d33d970ff6aac",
+    "evidence/eval/final_C4_gt_seed10_001/pilot_results.json": "9dd575b88156e108ecfa8463ac7e5b085f4ab91a2e05dc6e9afaf65304a1c347",
+    "evidence/training_candidates_v2/paired-seed-candidates-v4/4nodes/gt-joint-boundary/seed-10/attempt-001/debug/final_tensor_checksums.json": "7c6c6c8b1b3e30a447864e6369feafd1e201aa7cdaf29fffd88fb4ecdf8b6e79",
+    "evidence/report/final_REC_seed10_Seen_verified_001.json": "b7134be42fd0b1118d74198e15cb842098509a97f003f76513a1b1b82dcdc8f5",
+    "evidence/report/final_REC_seed10_Unseen_verified_001.json": "36666c55abcafd18c2ca431ae3f5bbf933056524132f368a079d5856056192f4",
+    "evidence/report/REC_seed10_final_output_format_001.json": "49e027b0e91994d7676876ae2c7fef33a979500c3df2e7f16e86d16672ac33e5",
+    "evidence/report/final_REC_seed10_complete_evaluation_verified_001.json": "31ef5598a4cb3e67ab27ddcaf021e6e261b8ba55b63236b1104d720962685823",
+    "evidence/report/REC_seed10_recorded_policy_outcomes_001.json": "de53404c7d5b7d240289ab4822a468a4bcdc6ed728b5a5696ed3aa77a63c2aa5",
+    "evidence/eval/final_C4_rec_seed10_001/plan.json": "3e9f66d97aedadec4bb2aa93294b8cb5873c4c201debd9285e134f0c322b8b2d",
+    "evidence/eval/final_C4_rec_seed10_001/controller_exit.json": "e688bbe62e6fdc3cbf14b4b126065b9cbd72bdd763a0092db1927de586175793",
+    "evidence/eval/final_C4_rec_seed10_001/all_worker_results.json": "47a4d3bda62b9868db8696d5cf929ba7ac6947482848c1dadd465aacda53da55",
+    "evidence/eval/final_C4_rec_seed10_001/final_metrics.json": "84c9af153aa4a469ec8388a66923d36a8af4a9e5e840e0e35821260accb8c53b",
+    "evidence/eval/final_C4_rec_seed10_001/pilot_results.json": "115ee9fa1002eb7b9db3b7ef29da4513d04b749004595a5b01ceb35920cf9b0b",
+    "evidence/training_candidates_v2/paired-seed-candidates-v4/4nodes/rec-joint-boundary/seed-10/attempt-001/debug/final_tensor_checksums.json": "ed584ffd1edb0ec2c7ab3d158af1bf56ef605022bd737990bc9096cc2617ffc2",
+    "evidence/report/final_GT_seed11_Seen_verified_002.json": "e290514c870949383dee8070b93f10482be8fe5d76d073cf4330cc12b589aac1",
+    "evidence/report/final_GT_seed11_Unseen_verified_002.json": "3c9ef75619a35507ade4d1533834486af2d97f3338f3c4cf4743e5e9e6a10554",
+    "evidence/report/GT_seed11_final_output_format_002.json": "22329644b5a930568be06d7664a43bc07d679dbb5a230fb9359d9a268859e379",
+    "evidence/report/final_GT_seed11_complete_evaluation_verified_002.json": "85c15034e3bb8acc8ab5ad2a8cef130a00e4709e603ce79b4df1718fe0302001",
+    "evidence/report/GT_seed11_recorded_policy_outcomes_002.json": "b30bd34b4bb73b3ed0d29b1c86896dc83e1c6d647338bab31d904525bfc4f6c1",
+    "evidence/eval/final_C4_gt_seed11_002/plan.json": "1509421a9c830a694cc5ce1d32aac29ffe0b8448dc845be897866aa605e12cb0",
+    "evidence/eval/final_C4_gt_seed11_002/controller_exit.json": "063bf430dd32231fd7b29d8c6f420fa36efebb7206bf45018b939afd42512894",
+    "evidence/eval/final_C4_gt_seed11_002/all_worker_results.json": "dcb00db5857ac8f9ca8b805ddddf68b856c7b0b1fe440f79d43bb2eb09301f58",
+    "evidence/eval/final_C4_gt_seed11_002/final_metrics.json": "95db41bcc3e4daf32f01b59b128d23b31a0492d51a485366fd321fc60a5cc6cc",
+    "evidence/eval/final_C4_gt_seed11_002/pilot_results.json": "0261afc6467715c4d3667cb49b3fee6a37610232ddc6f2477b320b22472dc2ea",
+    "evidence/training_candidates_v2/paired-seed-candidates-v4/4nodes/gt-joint-boundary/seed-11/attempt-001/debug/final_tensor_checksums.json": "36f8ac5a9ff82e68c0f49cda01eb1727bed3e57b9b4f8f1fa25b2c4d986bcd71",
+    "evidence/report/final_REC_seed11_Seen_verified_001.json": "91babbda06e968f0a1d9cad1d247f459a7545f958d86c6cb0accddc59d77b955",
+    "evidence/report/final_REC_seed11_Unseen_verified_001.json": "c4036597a93611ee01cb7dd869ffbc06b6444d406608350a2df9d6a1976386ee",
+    "evidence/report/REC_seed11_final_output_format_001.json": "988b18b2708e33a1fa3fd4ff667aee7c91b0dc8120705f4b4b992e67b853b0e5",
+    "evidence/report/final_REC_seed11_complete_evaluation_verified_001.json": "ac99a1bcb624bffb9c08fc34b31cfc307d5032cdfda21152a2a718db6452ca40",
+    "evidence/report/REC_seed11_recorded_policy_outcomes_001.json": "522e33900185426178d69338869eb0b416638f3d3b5e85f6bdd91496879f6539",
+    "evidence/eval/final_C4_rec_seed11_001/plan.json": "5ed699f24528895d2409695f19ba14eca4dec69ac2569e866e831da62478386a",
+    "evidence/eval/final_C4_rec_seed11_001/controller_exit.json": "db8b41c06d99340a6b7d0f64b395959124e5ec5570d292707d0bf26032a6c79c",
+    "evidence/eval/final_C4_rec_seed11_001/all_worker_results.json": "c921f9932b631a8a75028e3d835cfaee7399a342b88e2f2c35f8b0771f9bfb44",
+    "evidence/eval/final_C4_rec_seed11_001/final_metrics.json": "d19fa2fd6f1ae7e18bdf8f94e92126d4165341846f5b738f91167724b95a3e78",
+    "evidence/eval/final_C4_rec_seed11_001/pilot_results.json": "2017f36fac413919209610223e9b3e3885b97a4340ed237a822c5438333dff16",
+    "evidence/training_candidates_v2/paired-seed-candidates-v4/4nodes/rec-joint-boundary/seed-11/attempt-001/debug/final_tensor_checksums.json": "0eb3115b22a1995674629f59de68127a7cf68f75d2c8bf2dc794bdb6f3a95a98",
+    "evidence/report/final_GT_seed12_Seen_verified_001.json": "e185d4dbaa8f5844462e59130afb8c309c586cecf4d2f57837a503a81499f7b4",
+    "evidence/report/final_GT_seed12_Unseen_verified_001.json": "643bc7bef1ac88e361fc7b219413368e0e60a108a2e926036ce65759ea381240",
+    "evidence/report/GT_seed12_final_output_format_001.json": "91c0555929b57b045a52a14f0372bff0e5eb50c47d94370648519360fef320df",
+    "evidence/report/final_GT_seed12_complete_evaluation_verified_001.json": "9ea0456c2f622611983914b13f91b6f54ad1fce0cd8dfb6caba925632b8b3ea4",
+    "evidence/report/GT_seed12_recorded_policy_outcomes_001.json": "de1b57b56ec2856249c86aced463da7536f3c0866b55c01c56d9f0945569fe42",
+    "evidence/eval/final_C4_gt_seed12_001/plan.json": "5315d76ae07393624ad26a5b4cbb7f439afbdd2fe92e0cd8fcc28ef125d4de11",
+    "evidence/eval/final_C4_gt_seed12_001/controller_exit.json": "61f525df7dbd35043a12bcf65f866256b2f4273a3f57edba22c3cfa83f3a9375",
+    "evidence/eval/final_C4_gt_seed12_001/all_worker_results.json": "3407af825bcf500455d544562d3115a0ce4dff49f4572b099155bcaca1423fa7",
+    "evidence/eval/final_C4_gt_seed12_001/final_metrics.json": "18802e22860b369c3b8c20820d1107333275a18bf5215823c0ca1454ebf391f1",
+    "evidence/eval/final_C4_gt_seed12_001/pilot_results.json": "bf0e6214e8fe467f9a0aeb0cc2cec01d4137080e81ecc6e8aab5a605d06a5a4d",
+    "evidence/training_candidates_v2/paired-seed-candidates-v4/4nodes/gt-joint-boundary/seed-12/attempt-001/debug/final_tensor_checksums.json": "4bba7e22b4b1e05c112c0fe2cc2d24c7183948b0f9fc7cb554a33f85835a6de2",
+    "evidence/report/final_REC_seed12_Seen_verified_002.json": "ab21971f77e90f734d724cfecbc8f5ea9e0c7048e9501feb1a6a6dafaff09b2d",
+    "evidence/report/final_REC_seed12_Unseen_verified_002.json": "96cde943799ed2e86e75229c8dd83a7f7dc1a60381041207ac66758f258ae3ea",
+    "evidence/report/REC_seed12_final_output_format_002.json": "f985d987bd3625e09bd7143589a8f57e7d363ab68461382809f02195d4850ceb",
+    "evidence/report/final_REC_seed12_complete_evaluation_verified_002.json": "093161f763f88f8f11d66815be37accc1527c4afe041ffd73d61c0b9287d967c",
+    "evidence/report/REC_seed12_recorded_policy_outcomes_002.json": "8c6d1d5b79e2aa6ec56be57732e20fd2e25a388acec76c1121a8d022a8f5b434",
+    "evidence/eval/final_C4_rec_seed12_002/plan.json": "ffc24de0ffbd40422287be53fbb581b97bb33c5cb4013d0b19296b3100fb9767",
+    "evidence/eval/final_C4_rec_seed12_002/controller_exit.json": "6e320b0a69b8631ff94465fa9d738fb1e995c125c94b345bb08d502be6379975",
+    "evidence/eval/final_C4_rec_seed12_002/all_worker_results.json": "9e4915357f215a66b8ef4d515a152e5645943d257d820d90e4b044018131b70e",
+    "evidence/eval/final_C4_rec_seed12_002/final_metrics.json": "ff00c90a0bf16ffb165e17857956ecd1df4dda989d5c2a077a8bb43cbae22c3f",
+    "evidence/eval/final_C4_rec_seed12_002/pilot_results.json": "8056d6d6fe00d8a4cc88aab3954d1c5c10962c886477cc3ff011dfa5d479e026",
+    "evidence/training_candidates_v2/paired-seed-candidates-v4/4nodes/rec-joint-boundary/seed-12/attempt-001/debug/final_tensor_checksums.json": "54066b6461be6d5ffecbc87b6524f0fc03f69c84bfe8b03cc151d114985dbabe",
+    "evidence/eval/final_C4_paired_seed10_001/plan.json": "cf3aff6a11fb5f8a90492918b36ae5059bd0ed76579e894d8124f8527962ba38",
+    "evidence/eval/final_C4_paired_seed10_001/final_metrics.json": "ba0874b4b9797a5c0b9a0de6d71d5d869116304fe2eb3b3c13b66c1ffd72091b",
+    "evidence/eval/final_C4_paired_seed10_001/composition_verified.json": "de3b9a57bbe0631b4456de2cc3c397c2f55166b3ad0e30c068233f3cf5f62836",
+    "evidence/eval/final_C4_paired_seed11_001/plan.json": "e71fa2f59a69d124a1ea8e409fb9844c1775560a64db46ea7dd09d88293f035b",
+    "evidence/eval/final_C4_paired_seed11_001/final_metrics.json": "71b224984c5728ad3ae33db33189be3e8b2fc2066b763edfab39bf25c4f0a3c8",
+    "evidence/eval/final_C4_paired_seed11_001/composition_verified.json": "9915970c362526edfa4b8fbbacd2532beaddae5e7981430bf4710fd054d32e22",
+    "evidence/eval/final_C4_paired_seed12_001/plan.json": "2676d7a7672fdfff1111dcbf3e7e94ecd73b56bc54ca2967057f8a4e8d193890",
+    "evidence/eval/final_C4_paired_seed12_001/final_metrics.json": "5983434c4fb7b7b04663a4ba216268ac0f8e89ae62987233c218ecd88a0ded19",
+    "evidence/eval/final_C4_paired_seed12_001/composition_verified.json": "4826db4c3c03209952f1a37671fd3b1c2340b528d3bdfb2c0cac0e8524e76560",
+    "evidence/report/completed_six_primary_training_summary_001.json": "cac1c8c9dc5bc6acb9dfc4c442f98419e53fba59215d0a808d48e58bc7b58627",
+    "evidence/report/completed_six_primary_training_recipe_comparison_001.json": "1b1a283a1916707b3e877e0da2730d2a2dcd930aa21fcd187d571f437c4254eb",
+    "evidence/report/completed_six_primary_training_figure_visual_review_001.json": "1d3e115a4936c4bb731c43a8d23228481a55f483d086dcbb6be50f026de8dfc8",
+    "evidence/report/final_paired_policy_uncertainty_v3.json": "d74bc0565cc4bd03d9218b67227ba5e3afa67f2f475a9f4d6a1c63acbf221817"
+  },
+  "final_docx_and_visual_QA_still_required": true,
+  "goal_complete": false
+}
